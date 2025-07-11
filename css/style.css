@@ -253,3 +253,85 @@ section {
 .focus-img {
     border-radius: 50px;
 }
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-title {
+    width: 525px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.contact-form {
+    width: 500px;
+}
+
+.contact-form p>label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+}
+
+/* Footer Area */
+.footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 104px 155px;
+}
+
+.footer-logo {
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #4E47FF;
+}
+
+.footer-description {
+    color: #8987A1;
+    margin-top: 10px;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.footer li:last-child {
+    margin: 0;
+}
+
+.footer ul li a {
+    padding: 20px 10px;
+    color: #8987A1;
+    transition: 0.5s;
+    display: block;
+}
+
+.footer ul li a:hover {
+    color: #4E47FF;
+}
