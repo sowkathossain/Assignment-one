@@ -133,3 +133,37 @@ section {
     line-height: 30px;
     margin: 23px 0;
 }
+
+/* User Section */
+.user {
+    background-color: #e5e7ff;
+    padding: 50px 142px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.user-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #252432;
+}
+
+.user-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.number-figure {
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.user-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #0000005f;
+}
