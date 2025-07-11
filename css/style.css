@@ -167,3 +167,89 @@ section {
     font-size: 20px;
     color: #0000005f;
 }
+
+/* Testimonial Section */
+.testimonials .section-title {
+    text-align: center;
+}
+
+.testimonial-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-item {
+    max-width: 366px;
+    border: 1px solid #F2EDED;
+    box-shadow: 0px 10px 10px #f2eded;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.testimonial-rate li {
+    display: inline-block;
+}
+
+.testimonial-content {
+    margin: 24px 0;
+}
+
+.testimonial-content h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e1e1e;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.testimonial-quote {
+    display: flex;
+    align-items: center;
+}
+
+.author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.author-info {
+    font-size: 16px;
+}
+
+.author-info h4 {
+    color: #757575;
+    font-weight: 600;
+}
+
+.author-info p {
+    color: #b3b3b3;
+}
+
+/* Focus Section */
+.focus {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 70px 150px;
+}
+
+.focus-content {
+    margin-bottom: 20px;
+}
+
+.focus-content .section-title {
+    font-size: 50px;
+}
+
+.focus-content .section-description {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.focus-img {
+    border-radius: 50px;
+}
