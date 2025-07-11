@@ -1,0 +1,111 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f5f8ff;
+}
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.primary-color {
+    color: #4E47FF;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.btn-primary,
+.contact-form input[type="submit"] {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4E47FF;
+    color: #fff;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.btn-primary:hover {
+    background-color: #0901f6;
+}
+
+.section-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+
+section {
+    margin: 116px 0;
+}
+
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Area */
+.header {
+    background-image: url(../media/Hero-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navigation Area */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+/* Hero Section */
+.hero-area {
+    margin-top: 160px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.hero-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
